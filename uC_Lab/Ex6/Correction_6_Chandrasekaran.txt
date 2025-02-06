@@ -1,0 +1,41 @@
+******************************
+* Exercise sheet 6           *
+******************************
+
+Student: Adithya Chandrasekaran
+Tutor: Veena Iyer <veena95.sr@gmail.com>
+
+Grading: 10.0 / 10.0 points
+
+******************************
+
+Task 1
+  [+] reasonable program content and sequence    (5.0/5.0 pts.)
+  [+] flowchart symbols used correctly           (2.0/2.0 pts.)
+  [+] appropriate and balanced level
+      of abstraction & details                   (2.0/2.0 pts.)
+ 
+Task 2
+  [+] feedback.txt                               (1.0/1.0 pt.)
+
+Comments:
+
+Well thought and structured flowchart. 
+
+Answers to the questions in feedback:
+
+3. Minimal aliasing will be tolerated and accepted. 
+Feel free to try out anti-aliasing filter to remove unwanted high-frequency components
+which would help in generating an accurate sine wave output after sampling. 
+
+4. The evaluation for the project would be mainly based on implementation
+of analog sampling, serial data streaming, generation of different waveforms
+and how effective the amplitude and frequency control is.
+
+For exercise 5: Since all other sub-tasks worked as expected, I was a bit considerate
+in the grading process. :)
+
+Hope this helps you. Feel free to reach out to me in case you need further clarifications.
+
+Good luck for the implementation part!
+

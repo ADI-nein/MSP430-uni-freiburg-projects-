@@ -1,0 +1,32 @@
+******************************
+* Exercise sheet 1           *
+******************************
+
+Student: Adithya Chandrasekaran
+Tutor: Veena Iyer <veena95.sr@gmail.com>
+
+Grading: 10.0 / 10.0 points
+
+******************************
+
+Task 1
+  a) [+] state 1                       (1.5/1.5 pts.)
+     [+] state 2                       (1.5/1.5 pts.)
+     [+] state 3                       (1.5/1.5 pts.)
+     [+] state 4                       (1.5/1.5 pts.)
+  b) [+] code in function              (1.0/1.0 pt.)
+  c) [+] interrupt                     (2.0/2.0 pts.)
+
+Task 2
+     [+] feedback.txt                  (1.0/1.0 pt.)
+
+Comments:
+Well done! Everything works as expected.
+
+Online material for good coding practice:
+https://www.embeddedrelated.com/thread/4490/embedded-software-good-and-bad-programming-habits
+https://embedds.com/embedded-c-programming-best-practices-optimization-techniques-and-tools/
+
+I personally find these websites quite relevant and useful.
+
+

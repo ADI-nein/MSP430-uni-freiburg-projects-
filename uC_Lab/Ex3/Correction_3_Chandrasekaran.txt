@@ -1,0 +1,39 @@
+﻿******************************
+* Exercise sheet 3           *
+******************************
+
+Student: Adithya Chandrasekaran
+Tutor: Veena Iyer <veena95.sr@gmail.com>
+
+Grading: 9.75/ 10.0 points
+
+******************************
+
+Task 1
+a)
+  [+] correct PWM implementation       (1.0/1.0 pt.)
+  [+] 1st melody                       (1.0/1.0 pt.)
+  [+] 2nd melody                       (1.0/1.0 pt.)
+  [+] melodies stored in array         (1.0/1.0 pt.)
+b)
+  [+] checking PB5 by interrupt        (1.0/1.0 pt.)
+  [+] starting melody 1                (0.5/0.5 pt.)
+  [+] starting melody 2                (0.5/0.5 pt.)
+c)
+  [+] knocking detection               (2.0/2.0 pts.)
+d)
+  [-] pausing/resume with PB6          (0.75/1.0 pt.)
+
+Task 2
+  [+] feedback.txt                     (1.0/1.0 pt.)
+
+Comments:
+
+Overall well done. Most tasks completed correctly. as stated by you, resumption alone doesnt work. 
+
+Your approach of handling pause using ISR and setting pausePress flag could have been extended 
+further for resume function. 
+That is, PB6 once pressed (pause) -> pausePress flag set from 0 to 1, 
+PB6 again pressed (resume) -> pausePress flag set back from 1 to 0.
+
+Do get back to me in case you need further clarification.

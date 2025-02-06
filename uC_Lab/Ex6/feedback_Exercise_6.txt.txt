@@ -1,0 +1,20 @@
+Adithya Chandrasekaran 
+
+1. I think this is going to be quite a challenging final task and tried to keep the flowchart as abstract as 
+   possible while including all the necessary details of the generator and the scope. 
+
+2. Understanding of both timer and ADC modules is going to very crutial for the implementation.
+
+3. I think the SPWM generation and the ADC sampling is probably going to be the most challenging task. 
+   I would like to know how accurate the sine wave output should look like after the ADC sampling. 
+   For ex:Is some aliasing accepted?
+   
+4. Most of the features from the flowchart can be implemented but however could you please share the point
+   division for each sub-part in the project? 
+
+Regarding the feedback for assignement 3 I'll try to implement it in my code and see if I can run it as 
+expected and get back to you if I'm stuck and for experiment 5 I have misunderstood that task as you've 
+mentioned cost me the point but I appreciate the fact that points weren't consequently deducted for the other
+subtasks. 
+
+Happy holidays :) 

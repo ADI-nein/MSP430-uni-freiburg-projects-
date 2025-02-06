@@ -1,0 +1,28 @@
+﻿******************************
+* Exercise sheet 4           *
+******************************
+
+Student: Adithya Chandrasekaran
+Tutor: Veena Iyer <veena95.sr@gmail.com>
+
+Grading: 10.0 / 10.0 points
+
+******************************
+
+Task 1
+a)
+  [+] Relay handling                   (3.0/3.0 pt.)
+  [+] Reading piezo                    (1.5/1.5 pt.)
+  [+] Playing melodies                 (1.5/1.5 pt.)
+
+b)
+  [+] Advantages                       (1.0/1.0 pt.)
+  [+] Circuit explanation              (2.0/2.0 pt.)
+
+Task 2
+  [+] feedback.txt                     (1.0/1.0 pt.)
+
+Comments:
+
+The output was observed as expected. 
+Also, very well and detailed explanation for task b.

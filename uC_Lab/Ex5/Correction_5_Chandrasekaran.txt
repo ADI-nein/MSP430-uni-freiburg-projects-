@@ -1,0 +1,97 @@
+******************************
+* Exercise sheet 5           *
+******************************
+
+Student: Adithya Chandrasekaran
+Tutor: Veena Iyer <veena95.sr@gmail.com>
+
+Grading: 9.0 / 10.0 points
+
+******************************
+
+Task 1
+     [-] correct watchdog config & usage         (1.0/2.0 pts.)
+  
+Task 2
+  a) [+] correct watchdog & VLO configuration    (1.0/1.0 pt.)
+  b) [+] displaying temperature                  (1.0/1.0 pt.)
+  c) [+]    - with timer                         (2.0/2.0 pt.)
+  d) [+] temperature control                     (1.0/1.0 pt.)
+  e) [+] overheating protection                  (2.0/2.0 pts.)
+  
+Task 3
+     [+] feedback.txt                            (1.0/1.0 pt.)
+
+Comments:
+
+The task requires to have the green LED blinking at a frequency of 4Hz all the time (right from the start).
+The toggling of green LED has to be stopped only after the button PB5 is pressed. 
+But, in your source code, you have initially turned off the LED and only during the 
+artificial deadlock, the green LED blinks. This is not what is expected. Hence 1 point had to be reduced
+for the usage part. 
+
+For task 2a, the configurations are set correctly but the LED blinking was mixed up in task 1, hence  
+I considered it a consequential mistake from task 1 and hence not reduced any points separately for this task.
+
+Apart from this everything else works just as expected. 
+
+About your case for resume:
+I checked my implementation from the previous semester. My approach was by counting the number of times PB6 
+is pressed. I could share with you a short pseudo code for the logic for resume which I used. 
+This approach could be long but it is a possible basic way to go about it.
+
+    // Generating melody 1 & 2 with n different frequencies
+    {
+	// task2
+        // If PB6 is resumed after pause
+        if (countPB6 == 0)
+         {
+             //Play the note
+         }
+        #ifndef task1
+         // If PB6 is paused
+         else
+         {
+            // Keeping continuing in pause until PB6 is pressed again
+            while(countPB6 == 1)
+            {
+                /* If PB5 is pressed when PB6 is in pause state, play melody according
+                 * to number of presses (based on the button press or knock detected).
+                 */
+                {
+                    // Reset PB6 to 0
+                    countPB6 = 0;
+                    // Play melody according to the number of presses or knock
+                }
+            }
+        }
+    }
+
+And within the ISR:
+
+    // PB6 is pressed
+    {
+        // PB6 is pressed once
+        if(countPB6 == 0)
+        {
+            serialPrintln("Pause");
+            // Setting countPB6 as 1
+            countPB6 = 1;
+        }
+        // For the next press of PB6
+        else if(countPB6 == 1)
+        {
+            serialPrintln("Resume");
+            // Setting PB6 back to 0
+            countPB6 = 0;
+        }
+        // Debounce time - 50ms
+        __delay_cycles(50000);
+    }
+
+Hope your doubt gets clarified with this. If not, feel free to reach out to me.
+
+
+
+
+

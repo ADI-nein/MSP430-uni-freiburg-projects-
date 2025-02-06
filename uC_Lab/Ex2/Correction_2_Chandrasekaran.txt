@@ -1,0 +1,55 @@
+﻿******************************
+* Exercise sheet 2           *
+******************************
+
+Student: Adithya Chandrasekaran
+Tutor: Veena Iyer <veena95.sr@gmail.com>
+
+Grading: 9.5 / 10.0 points
+
+******************************
+
+Task 1
+  [-] inital state                     (0.5/1.0 pt.)
+  [+] rewind                           (1.0/1.0 pt.)
+      -> [+] previous states           (1.0/1.0 pt.)
+  [+] pause                            (1.0/1.0 pt.)
+  [+] play                             (1.0/1.0 pt.)
+      -> [+] from current position     (1.0/1.0 pt.)
+  [+] fast forward                     (1.0/1.0 pt.)
+      -> [+] previous states           (1.0/1.0 pt.)
+  [+] independence from current state  (1.0/1.0 pt.)
+  [-] rotating light                   (0.0/1.0 pt.)
+
+Task 2
+  [+] feedback.txt                     (1.0/1.0 pt.)
+
+Comments:
+
+Initally, when rewind (PB1) or fast-forward (PB4) was pressed,
+there was action noticed. In inital state, it is expected   
+out of the task that your program should start responding 
+to any one of inputs PB1, PB3 or PB4 (except PB3 as all LEDs are 
+off in intial state). 
+Hence, I had to deduct 0.25 points each (0.5 in total) as fast-forward 
+and rewind did not work from inital state.
+
+Starting from the playback (PB3) mode, everything worked perfectly fine.
+
+Also, the rotating light (bonus question) implemetation was not found,  
+hence points for that task is not awarded. 
+
+For "most optimal/organised" solution as requested by you in your feedback:
+1. Given the way the hardware is wired, the manual clocking makes the coding tedious. 
+   But generally for such tasks the timer modules can be used which can make the code
+   more efficient. Also a falling and or rising edge combination can make forward/reverse clocking easier. 
+
+2. Also in general, avoid using "for" loops in embedded programming. A for-loop in general takes more instruction 
+   cycle than a IF statement. (You can google the instruction loops for each of the standard command if interested).
+   In actual world applications where there are memory constraints, for-loop is usually avoided. 
+   Now this could make our understanding of optimum code counterintuitive as you may need several ifs instead of one for, 
+   but this could be optimum from resource point of view. 
+
+Hope this helps?
+
+Do reach out to me in case if you have any questions. 
