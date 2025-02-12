@@ -1,0 +1,24 @@
+Adithya Chandrasekaran
+
+1. A very challenging task to understand how to generated sine, trapezoid and rectangular waves using PWM.
+
+2. Understanding of timer modules is also extremley crutial. I think exercise 5 helps in that regard. 
+
+3. Basic understanding of fourier series, signal processing, filters etc is very essential to complete the task.
+
+4. Code with respect to ADC and button controls are reusable from previous exercises so, the biggest challenge 
+   would surely be to implement the signal generator with the help of PWM and timer interrupts using the 
+   above mentioned concepts. 
+   
+5. Overall it was quite a challenge as there are a significant number of concepts that one should understand
+   before going ahead with the implementation. 
+   
+6. As mentioned in the code due to memory constraints, the look up table was limited to 16 values thus reducing 
+   sampling frequency resulting in a wave that might be not so perfect. 
+   
+7. For higher frequencies(as you start approaching 16Hz) in the trapezoidal wave and the rectangular wave, the edges 
+   would be start getting more and more rounded as the wave harmonics start getting filtered out by the RC filter which
+   again would result in imperfect recatngular/trapezoidal waves. 
+   
+8. The video demonstration may have some cuts in between due to editing and exceeds the given time by almost a minute(I hope no points can be deducted for this). 
+   But I believe some editing was essential to deliver the information in a concise and an acccurate manner.  
